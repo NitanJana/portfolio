@@ -1,5 +1,5 @@
 .header-logo {
-  color: #05bfdb;
+  color: var(--primary-clr);
   width: 6rem;
   font-size: 2rem;
   font-weight: 300;

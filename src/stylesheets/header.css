@@ -8,5 +8,5 @@
   align-items: center;
   position: sticky;
   top: 0;
-  background-color: #0b192e;
+  background-color: var(--background-clr);
 }

@@ -1,7 +1,7 @@
 .nav ul {
   display: flex;
   gap: 0.7rem;
-  color: #ffffff;
+  color: var(--white-clr);
   list-style: none;
 }
 
@@ -18,7 +18,7 @@
 
 .nav-item-num {
   font-size: 1rem;
-  color: #05bfdb;
+  color: var(--primary-clr);
 
 }
 
@@ -29,13 +29,13 @@
 
 .nav-item:hover,
 .nav-item.active {
-  background-color: #05bfdb;
-  color: #000000;
+  background-color: var(--primary-clr);
+  color: var(--black-clr);
 }
 
 .nav-item:hover .nav-item-num,
 .nav-item.active .nav-item-num {
-  color: #000000;
+  color: var(--black-clr);
 }
 
 .nav a,
@@ -43,4 +43,3 @@
   text-decoration: none;
   color: inherit;
 }
-

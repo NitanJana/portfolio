@@ -6,24 +6,25 @@
 }
 
 .user-intro {
-  color: #05bfdb;
+  color: var(--primary-clr);
 }
 
 .user-name {
   font-size: 5rem;
   font-weight: 600;
-  color: #ffffff;
+  color: var(--white-clr);
 }
 
 .user-job {
   font-size: 4.5rem;
   font-weight: 600;
-  color: #05bfdb85;
+  color: var(--primary-clr);
+  opacity: 0.8;
   margin-bottom: 3rem;
 }
 
 .learn-more-button-wrapper {
-  background-color: #05bfdb;
+  background-color: var(--primary-clr);
   width: 10rem;
   height: 3rem;
   border-radius: 0.5rem;
@@ -34,9 +35,9 @@
   height: 100%;
   font-size: 1.1rem;
   font-weight: 100;
-  color: #05bfdb;
-  background-color: #0b192e;
-  border: 2px solid #05bfdb;
+  color: var(--primary-clr);
+  background-color: var(--background-clr);
+  border: 2px solid var(--primary-clr);
   border-radius: 0.5rem;
   cursor: pointer;
 }

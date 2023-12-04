@@ -1,5 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;500;600;700;900&display=swap');
 
+:root {
+  --background-clr: #0b192e;
+  --primary-clr: #05bfdb;
+  --white-clr: #ffffff;
+  --black-clr: #000000;
+}
+
 *,
 *::before,
 *::after {
@@ -11,7 +18,7 @@
 body {
   display: flex;
   flex-direction: column;
-  background-color: #0b192e;
+  background-color: var(--background-clr);
   font-family: 'Montserrat', sans-serif;
 }
 
