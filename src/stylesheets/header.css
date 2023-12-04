@@ -1,9 +1,12 @@
 @import url(logo.css);
 @import url(nav.css);
 
-.header{
+.header {
   padding: 1.5rem 3rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  position: sticky;
+  top: 0;
+  background-color: #0b192e;
 }

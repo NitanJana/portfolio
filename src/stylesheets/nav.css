@@ -37,3 +37,10 @@
 .nav-item.active .nav-item-num {
   color: #000000;
 }
+
+.nav a,
+.nav a:visited {
+  text-decoration: none;
+  color: inherit;
+}
+
