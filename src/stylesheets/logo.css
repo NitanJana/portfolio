@@ -1,11 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;500&display=swap');
 
 .header-logo {
-  font-family: 'Montserrat', sans-serif;
   color: #05bfdb;
   width: 6rem;
-  font-size: 2.5rem;
-  font-weight: 200;
+  font-size: 2rem;
+  font-weight: 300;
   cursor: default;
   position: relative;
   user-select: none;

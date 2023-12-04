@@ -1,5 +1,9 @@
 @import url(logo.css);
+@import url(nav.css);
 
 .header{
   padding: 1.5rem 3rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
