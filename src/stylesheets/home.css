@@ -6,6 +6,7 @@
 }
 
 .user-intro {
+  font-size: 1.2rem;
   color: var(--primary-clr);
 }
 
@@ -21,6 +22,7 @@
   color: var(--primary-clr);
   opacity: 0.8;
   margin-bottom: 3rem;
+  text-shadow: -5px -5px 1px var(--shadow);
 }
 
 .learn-more-button-wrapper {
@@ -44,9 +46,4 @@
 
 .learn-more-button:hover {
   transform: translate(4px, 4px);
-}
-
-#about {
-  margin-top: 500px;
-  height: 20rem;
 }

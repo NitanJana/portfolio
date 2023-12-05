@@ -24,6 +24,7 @@
     "eslint-config-prettier": "^9.0.0",
     "eslint-plugin-import": "^2.29.0",
     "html-webpack-plugin": "^5.5.3",
+    "copy-webpack-plugin": "^11.0.0",
     "prettier": "3.0.3",
     "style-loader": "^3.3.3",
     "webpack": "^5.88.2",

@@ -1,0 +1,59 @@
+#about {
+  padding: 20vh 15vw;
+}
+
+.about-head {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 2rem;
+}
+
+.about-head-num {
+  font-size: 1.2rem;
+  color: var(--primary-clr);
+}
+
+.about-head-text {
+  font-size: 1.7rem;
+  font-weight: 700;
+  color: var(--gray-clr);
+}
+
+.about-hr {
+  width: 50%;
+  height: 0.5px;
+  background-color: var(--gray-clr);
+}
+
+.about-body {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.about-content {
+  font-size: 1.2rem;
+  color: var(--gray-clr);
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  flex: 1;
+  min-width: 300px;
+}
+
+.about-special-text {
+  color: var(--primary-clr);
+}
+
+.profile-img-wrapper {
+  width: 300px;
+}
+
+.profile-img {
+  border-radius: 1rem;
+  height: 100%;
+  width: 100%;
+}
