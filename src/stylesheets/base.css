@@ -27,6 +27,7 @@ body {
   background-color: var(--background-clr);
   font-family: 'Montserrat', sans-serif;
   cursor: default;
+  user-select: none;
 }
 
 /* Hide scrollbar for Chrome, Safari and Opera */
