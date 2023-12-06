@@ -1,6 +1,7 @@
 const path = require("path");
 const HtmlWebpackPlugin = require("html-webpack-plugin");
 const CopyWebpackPlugin = require("copy-webpack-plugin");
+const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 
 module.exports = {
   mode: "development",
@@ -8,9 +9,9 @@ module.exports = {
   devtool: "inline-source-map",
   devServer: {
     static: "./dist",
-    host: "0.0.0.0", // Allows external access
-    port: 8080, // Port to use
-    hot: true, // Enable hot module replacement
+    host: "0.0.0.0",
+    port: 8080,
+    hot: true,
   },
   plugins: [
     new HtmlWebpackPlugin({
@@ -19,10 +20,9 @@ module.exports = {
       chunks: ["main"],
     }),
     new CopyWebpackPlugin({
-      patterns: [
-        { from: "./src/assets", to: "assets" }, // Copies files from src/assets to dist/assets
-      ],
+      patterns: [{ from: "./src/assets", to: "assets" }],
     }),
+    new MiniCssExtractPlugin({ filename: "[name].css" }), // Add this line
   ],
   output: {
     filename: "main.js",
@@ -44,7 +44,7 @@ module.exports = {
       },
       {
         test: /\.css$/i,
-        use: ["style-loader", "css-loader"],
+        use: [MiniCssExtractPlugin.loader, "css-loader"], // Update this line
       },
       {
         test: /\.(png|jpg|svg|jpeg|gif)$/i,
