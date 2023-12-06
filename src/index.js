@@ -1,4 +1,7 @@
+// main.js
+
 import "./stylesheets/styles.css";
+import initializeCursor from "./modules/cursor";
 
 // function to change active class
 function changeActive(selectedItem) {
@@ -12,4 +15,8 @@ navItems.forEach((item) => {
   item.addEventListener("click", () => {
     changeActive(item);
   });
+});
+
+document.addEventListener("DOMContentLoaded", () => {
+  initializeCursor();
 });

@@ -95,7 +95,6 @@
   background-color: var(--background-clr);
   border: 2px solid var(--primary-clr);
   border-radius: 0.5rem;
-  cursor: pointer;
   transition: all 0.2s ease-in-out;
 }
 

@@ -15,6 +15,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  cursor: none;
 }
 
 html {
@@ -26,7 +27,6 @@ body {
   flex-direction: column;
   background-color: var(--background-clr);
   font-family: 'Montserrat', sans-serif;
-  cursor: default;
   user-select: none;
   box-sizing: border-box;
 
