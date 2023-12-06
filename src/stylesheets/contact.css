@@ -1,0 +1,67 @@
+.contact-section-body {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.section-body-heading {
+  font-size: 2rem;
+  font-weight: 700;
+  color: var(--white-clr);
+}
+
+.section-body-msg {
+  width: 70%;
+  line-height: 1.5rem;
+  color: var(--gray-clr);
+}
+
+.contact-buttons-container {
+  display: flex;
+  gap: 2rem;
+}
+
+.resume-button-wrapper,
+.gmail-button-wrapper {
+  background-color: var(--primary-clr);
+  width: 10rem;
+  height: 3rem;
+  border-radius: 0.5rem;
+  margin: 0 auto;
+}
+
+.resume-button,
+.gmail-button {
+  width: 100%;
+  height: 100%;
+  font-size: 1.1rem;
+  font-weight: 100;
+  color: var(--primary-clr);
+  background-color: var(--background-clr);
+  border: 2px solid var(--primary-clr);
+  border-radius: 0.5rem;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.resume-button:hover,
+.gmail-button:hover {
+  transform: translate(4px, 4px);
+}
+
+
+.contact-container-msg,
+.social-container-msg {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--gray-clr);
+}
+
+.social-buttons-container {
+  display: flex;
+  gap: 2rem;
+}
+
+.social-button {
+  width: 2.5rem;
+}

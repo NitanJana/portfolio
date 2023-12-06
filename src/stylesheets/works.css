@@ -27,7 +27,7 @@
 }
 
 .project-desc {
-  width: 23rem;
+  width: 22rem;
   font-size: 1.1rem;
   border-radius: 1rem;
   padding: 2rem;
@@ -105,7 +105,7 @@
 
 .project-links-wrapper {
   display: flex;
-  gap: 1rem;
+  gap: 1.5rem;
 }
 
 .project-link {
@@ -114,5 +114,9 @@
   text-decoration: none;
   display: flex;
   align-items: center;
-  gap: 0.2rem;
+  gap: 0.5rem;
+}
+
+.github-logo {
+  width: 25px;
 }
