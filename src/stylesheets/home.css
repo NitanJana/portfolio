@@ -1,5 +1,4 @@
 #home {
-  padding: 20vh 15vw;
   display: flex;
   flex-direction: column;
   gap: 1.5rem;
@@ -42,6 +41,7 @@
   border: 2px solid var(--primary-clr);
   border-radius: 0.5rem;
   cursor: pointer;
+  transition: all 0.2s ease-in-out;
 }
 
 .learn-more-button:hover {

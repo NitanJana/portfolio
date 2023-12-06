@@ -9,5 +9,5 @@
   position: sticky;
   top: 0;
   background-color: var(--background-clr);
-  z-index: 2;
+  z-index: 3;
 }
