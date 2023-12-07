@@ -13,17 +13,27 @@ This repository contains the source code for my personal portfolio website.
 - Clean and modern UI
 - projects section, about me section, contact information, social media links
 
-**Live Demo:**
+## Table of Contents
+
+1. [Live Demo](#live-demo)
+2. [Tech Stack](#tech-stack)
+3. [Getting Started](#getting-started)
+4. [Usage](#usage)
+5. [Contributing](#contributing)
+6. [Deployment](#deployment)
+7. [License](#license)
+
+## Live Demo
 
 - You can view the live demo of the website here: [portfolio](https://nitanjana.github.io/portfolio/)
 
-**Tech Stack:**
+## Tech Stack
 
 - HTML
 - CSS
 - JavaScript
 
-**Getting Started:**
+## Getting Started
 
 1. Clone the repository:
 
