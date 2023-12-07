@@ -74,3 +74,9 @@ section {
   background-color: var(--gray-clr);
   opacity: 0.5;
 }
+
+@media screen and (max-width: 768px) {
+  section {
+    padding: 15vh 15vw;
+  }
+}
