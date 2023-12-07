@@ -1,5 +1,3 @@
-// cursor.js
-
 // function to initialize cursor functionality
 export default function initializeCursor() {
   const mainCursor = document.getElementById("mainCursor");
