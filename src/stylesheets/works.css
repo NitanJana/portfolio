@@ -41,6 +41,7 @@
   color: var(--gray-clr);
   display: flex;
   gap: 1rem;
+  flex-wrap: wrap;
 }
 
 .project-image-wrapper {
